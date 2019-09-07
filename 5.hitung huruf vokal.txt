@@ -1,0 +1,26 @@
+#include <iostream.h>
+#include <conio.h>
+#include <string.h>
+void main()
+{
+      int i=0;
+      int vk=0;
+      int x;
+      char kalimat[20];
+
+   cout <<"\t\tPROGRAM MENGHITUNG HURUF VOKAL\n ";
+   cout <<"\t\t===========================================\n\n ";
+   cout <<" ::silahkan masukkan kalimat:: \n";
+
+      cin.getline(kalimat,20);
+      x=strlen(kalimat);
+      for(i=0;i<x;i++)
+            {
+              if(kalimat[i]=='a'||kalimat[i]=='i'||kalimat[i]=='u'||kalimat[i]=='e'||kalimat[i]=='o')
+            vk++;
+            else
+            ks++;
+      }
+      cout<<"Jumlah Huruf Vokal\t: "<<vk<<" huruf"<<endl;
+      getch();
+}

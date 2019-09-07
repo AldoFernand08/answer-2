@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+	char huruf[10];
+	printf("masukkan huruf = %i\n");
+	if(huruf <=3){
+	printf("%c",&huruf);
+	}else
+	if(huruf <=5){
+	printf("%c-",&huruf);
+	}else
+	if(huruf<=6){
+	printf("%c-",&huruf);
+	}else
+	{
+	printf("");
+	}
+	return 0;
+	}
+	
